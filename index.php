@@ -25,7 +25,7 @@ require "db.php";
         if($posts){
             while($row = $posts->fetch_object()){
 
-                while($i<3) {
+                if($i<3) {
                     $i=$i+1;
                     $id = $row->id;
                     echo "<div id='news'>";
