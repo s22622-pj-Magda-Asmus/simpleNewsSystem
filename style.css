@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+article {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 150px;
+
+    width: 60%;
+    margin-left: 20%;
+    border: #6f6f6f;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+
+}
+
+h1 {
+
+    text-align: center;
+    /*margin-bottom: 60px;*/
+    position: fixed;
+    background-color: lightsteelblue;
+    width: 100%;
+    top: 0px;
+    margin-block-start: 0.0em;
+}
+#addDate {
+    text-align: right;
+    font-size: smaller;
+}
+
+#news {
+    border-bottom-style: dotted;
+    border-bottom-color: #6f6f6f;
+    border-bottom-width: revert;
+    margin-bottom: 20px;
+    background-color: #d1eaff;
+}
